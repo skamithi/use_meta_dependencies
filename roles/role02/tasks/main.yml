@@ -1,0 +1,3 @@
+---
+# tasks file for role02
+- debug: msg="call role02"
