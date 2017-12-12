@@ -4,3 +4,7 @@
   connection: local
   roles:
      - role: rhelbuild
+       role1_action: "run action for role1"
+       role2_action: "run action for role2"
+       role3_action: "run action for role3"
+

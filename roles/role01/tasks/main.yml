@@ -1,3 +1,3 @@
 ---
 # tasks file for role01
-- debug: msg="call role01"
+- debug: msg="call role01 {{action}}"
