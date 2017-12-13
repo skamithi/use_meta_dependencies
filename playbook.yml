@@ -4,7 +4,6 @@
   connection: local
   roles:
      - role: rhelbuild
-       role1_action: "run action for role1"
-       role2_action: "run action for role2"
-       role3_action: "run action for role3"
-
+       # any var that might need to be passed to dependent roles should be defined here
+       package_name_for_subrole: vim
+       java_version_for_subrole: jre1.8.0_73
